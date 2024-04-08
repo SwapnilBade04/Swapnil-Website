@@ -140,7 +140,7 @@ export default function Home() {
           <h2 className="title">About me</h2>
           <div className="about-content">
             <div className="column left">
-              <Image src="/swapnil.jpg" alt="Not found" width={10000} height={10000} />
+              <Image src="https://swapnilbade04.github.io/Swapnil-Website/swapnil.png" alt="Not found" width={10000} height={10000} />
             </div>
             <div className="column right">
               <div className="text">
