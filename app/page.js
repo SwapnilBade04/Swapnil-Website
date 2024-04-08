@@ -131,7 +131,7 @@ export default function Home() {
             <div className="text-1">Hello, my name is</div>
             <div className="text-2"><span>S</span>wapnil <span>B</span>ade</div>
             <div className="text-3">And I'm a <span ref={el} className="typing"> </span></div>
-            <a href="https://github.com/SwapnilBade04"><i className="fab fa-github"></i> Github</a>
+            <a href="./Swapnil_Bade_Resume.pdf" target="_blank" download={""}>Download Resume</a>
           </div>
         </div>
       </section>
@@ -151,7 +151,8 @@ export default function Home() {
               <p>
               graduate student at Stony Brook University, I am actively pursuing my master's degree in Computer Engineering. With three years of comprehensive experience in full-stack development at British Telecommunication, Europe's leading telecommunications provider, I have honed my skills in software engineering. Currently, I am also serving as a part-time research assistant at the Centre Valbio, where I focus on analyzing biological data
               </p>
-              <a href="./Swapnil_Bade_Resume.pdf" target="_blank" download={""}>Download Resume</a>
+              
+              <a href="https://github.com/SwapnilBade04"><i className="fab fa-github"></i> Github</a>
             </div>
           </div>
         </div>
