@@ -12,12 +12,12 @@ export default function Home() {
   const [message, setMessage] = useState()
   const [sent, setSent] = useState(false)
   const [scroll, setScroll] = useState(false)
-
+  
 
   const form = useRef()
   const el = useRef()
 
-
+  
   const Name = (e) => {
 
     setName(e.target.value);
@@ -62,7 +62,7 @@ export default function Home() {
       typed.destroy();
     };
   }, []);
-
+  
   const Contact = (e) => {
     e.preventDefault();
 
@@ -140,14 +140,14 @@ export default function Home() {
           <h2 className="title">About me</h2>
           <div className="about-content">
             <div className="column left">
-              <Image src="/swapnil.png" alt="" width={10000} height={10000} />
+              <Image src="/swapnil.png" alt="Not found" width={10000} height={10000} />
             </div>
             <div className="column right">
               <div className="text">
                 I am Swapnil and I'm a <span className="typing-2"></span>
               </div>
               <p>
-                graduate student at Stony Brook University, I am actively pursuing my master's degree in Computer Engineering. With three years of comprehensive experience in full-stack development at British Telecommunication, Europe's leading telecommunications provider, I have honed my skills in software engineering. Currently, I am also serving as a part-time research assistant at the Centre Valbio, where I focus on analyzing biological data
+              graduate student at Stony Brook University, I am actively pursuing my master's degree in Computer Engineering. With three years of comprehensive experience in full-stack development at British Telecommunication, Europe's leading telecommunications provider, I have honed my skills in software engineering. Currently, I am also serving as a part-time research assistant at the Centre Valbio, where I focus on analyzing biological data
               </p>
               <a href="./Swapnil_Bade_Resume.pdf" target="_blank" download={""}>Download Resume</a>
             </div>
@@ -183,7 +183,7 @@ export default function Home() {
                 <i className="fas fa-chart-bar"></i>
                 <div className="text">Centre ValBio</div>
                 <p>
-                  I am currently employed as a part-time Research Assistant, where I utilize technologies such as Angular and Django to develop both the front-end and back-end components for performing CRUD operations on biological datasets
+                I am currently employed as a part-time Research Assistant, where I utilize technologies such as Angular and Django to develop both the front-end and back-end components for performing CRUD operations on biological datasets
                 </p>
               </div>
             </div>
