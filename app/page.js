@@ -131,7 +131,7 @@ export default function Home() {
             <div className="text-1">Hello, my name is</div>
             <div className="text-2"><span>S</span>wapnil <span>B</span>ade</div>
             <div className="text-3">And I'm a <span ref={el} className="typing"> </span></div>
-            <a href="https://github.com/SwapnilBade04/Swapnil-Website/blob/master/public/swapnil_Bade_Resume.pdf" target="_blank" download={""}>Download Resume</a>
+            <a href="https://swapnilbade04.github.io/Swapnil-Website/blob/master/public/swapnil_Bade_Resume.pdf" target="_blank" download={""}>Download Resume</a>
           </div>
         </div>
       </section>
