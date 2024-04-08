@@ -98,7 +98,9 @@ export default function Home() {
 
   return (
     <>
-
+       <head>
+        <title>Swapnil</title>
+      </head>
       <div className="scroll-up-btn">
         <i className="fas fa-angle-up"></i>
       </div>
