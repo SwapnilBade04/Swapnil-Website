@@ -166,7 +166,7 @@ section .title::after {
 }
 
 .navbar .menu li a:hover {
-  color: crimson;
+  color:rgb(243, 207, 130);
 }
 
 .navbar.sticky .menu li a:hover {
