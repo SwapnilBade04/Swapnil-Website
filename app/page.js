@@ -131,7 +131,7 @@ export default function Home() {
             <div className="text-1">Hello, my name is</div>
             <div className="text-2"><span>S</span>wapnil <span>B</span>ade</div>
             <div className="text-3">And I'm a <span ref={el} className="typing"> </span></div>
-            <a href="https://drive.google.com/drive/folders/12VWKrRnSakU6vSrnEFiAt2OAIkTZIV1S" target="_blank" download="Swapnil_Bade_Resume.pdf">Download Resume</a>
+            <a href="https://drive.google.com/file/d/13-Q029htcH746O-pCF4nbaMFbFz0h_88/view?usp=drive_link" target="_blank" download="Swapnil_Bade_Resume.pdf">Download Resume</a>
           </div>
         </div>
       </section>
